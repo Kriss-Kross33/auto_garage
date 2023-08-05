@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "457388116738",
+    "project_id": "kriss-auto-garage",
+    "storage_bucket": "kriss-auto-garage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457388116738:android:849d1d9fe7b03d8c1b101b",
+        "android_client_info": {
+          "package_name": "com.example.auto_garage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457388116738-npsptk4i347f8stapdjjr8gunaigo9k4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.auto_garage",
+            "certificate_hash": "56a6768514227764329d7e6513077838e68c0d07"
+          }
+        },
+        {
+          "client_id": "457388116738-nk8jsdafpqckfnn29ssf64ulous6tgau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLHfshOhzY7a46uIlK7WDf5WUUrDabVAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457388116738-nk8jsdafpqckfnn29ssf64ulous6tgau.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "457388116738-jpjoo7k67hcpd5l9d2udmq6c82jcp07d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gordonAutoGarage"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
