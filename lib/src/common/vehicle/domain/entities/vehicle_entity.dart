@@ -1,6 +1,26 @@
 import 'package:equatable/equatable.dart';
 
 class Vehicle extends Equatable {
+  const Vehicle({
+    required this.name,
+    required this.model,
+    required this.color,
+    required this.condition,
+    required this.year,
+    required this.description,
+    required this.price,
+    required this.transmission,
+    required this.fuelType,
+    required this.milage,
+    this.passengers,
+    this.isFeatured = false,
+    required this.created,
+    this.updated,
+    this.doors,
+    this.interior,
+    this.bodyStyle,
+    this.engine,
+  });
   final String name;
   final String color;
   final String model;
@@ -8,17 +28,17 @@ class Vehicle extends Equatable {
   final Condition condition;
   final double price;
   final String description;
-  final String bodyStyle;
-  final String engine;
+  final String? bodyStyle;
+  final String? engine;
   final String transmission;
-  final String interior;
+  final String? interior;
   final String fuelType;
   final bool isFeatured;
   final int milage;
   final DateTime created;
-  final DateTime updated;
-  final int passengers;
-  final Doors doors;
+  final DateTime? updated;
+  final int? passengers;
+  final Doors? doors;
 
   @override
   List<Object> get props => [];
