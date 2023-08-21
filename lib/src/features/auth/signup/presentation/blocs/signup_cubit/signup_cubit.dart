@@ -92,7 +92,7 @@ class SignupCubit extends Cubit<SignupState> {
       await _authenticationRepository.signup(
         email: state.email.value,
         password: state.password.value,
-        username: state.username.value,
+        //  username: state.username.value,
       );
       emit(
         state.copyWith(
